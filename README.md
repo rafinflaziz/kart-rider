@@ -25,4 +25,15 @@ But I realize something. When I play against top players, they tend to move fast
 In this project, I will analyze whether there's a significant difference in position between average players and top players.
 
 # Get the Data
-How to get the position?
+The data comes from videos format. It's a full screen gameplay, which includes position list at the top left corner.
+
+For the pro gameplay, I downloaded the video directly from their facebook stream. For the average players, I acquire it by asking my friends in instagram.
+
+# Extract the Position Data
+To extract the data, there are two methods that come into my mind.
+
+## Digit Recognizer
+I use digit recognizer package, recognize digit and record them every ~0.8 second. 
+
+## Pixel Position
+
